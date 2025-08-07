@@ -111,7 +111,7 @@ const Toppart = () => {
                         fontFamily: "Poppins2",
                         fontSize: "13px",
                         backgroundColor: "rgba(41, 41, 41, 1)",
-                        width: "80%",
+                        width: {md:"80%",xs:"98%"},
                         height: "52px",
                         display: "flex",
                         justifyContent: "center",

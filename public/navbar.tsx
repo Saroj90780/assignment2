@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import {Box, Button, Typography} from '@mui/material'
 import logo from './images/Logo (4).png'
+import MenuIcon from '@mui/icons-material/Menu';
 const navbar = () => {
 
     const isSmallScreen = useIsSmallScreen();
@@ -22,7 +23,7 @@ const SmallView =()=>{
             </Box>
             
             <Box>
-               saroj 
+                <MenuIcon sx={{color:'white'}}/>
             </Box>
         </Box>
         </>
