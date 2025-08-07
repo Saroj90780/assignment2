@@ -24,12 +24,12 @@ const Carts = () => {
 }
 export default Carts
 
-interface Cartitems {
+interface Cartitemsprop {
   quantity: number;
   cartwidth:string;
 }
 
-const Cartitems = ({ quantity, cartwidth }) => {
+const Cartitems = ({ quantity, cartwidth }:Cartitemsprop) => {
     return (<>
         <Typography sx={{ width: '88%', textAlign: 'start', fontFamily: "Poppins1", fontSize: '45px', color: "white" }}>PORTFOLIO</Typography>
         <Box sx={{ width: '88%', display: 'flex', flexWrap: 'wrap', gap: '22px', justifyContent: 'flex-start' }}>
