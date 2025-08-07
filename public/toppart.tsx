@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Box, Button, Typography } from "@mui/material"
+import { Box, Button} from "@mui/material"
 import img1 from './images/still-life-graphic-design-studio 1.png'
 import img2 from './images/Frame 1.png'
 import logo1 from './images/Instagram.svg'

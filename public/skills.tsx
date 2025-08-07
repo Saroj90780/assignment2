@@ -14,7 +14,7 @@ const Skills = () => {
             <Typography sx={{ width: '87%', textAlign: 'start', fontFamily: "Poppins1", fontSize: '45px', color: "white" }}>SKILLS</Typography>
             <Box sx={{ width: '87%', display: 'flex', flexWrap: 'wrap', gap: '22px', justifyContent: 'flex-start' }}>
                 {[...Array(4)].map((_, index) => (
-                    <Box sx={{ height: "270px", width: '675px', border: "1px solid rgba(115, 115, 115, 1)", borderRadius: '10px', p: 2, display: "flex", gap: "10px", justifyContent:"center",alignItems:'center' }}>
+                    <Box key={index} sx={{ height: "270px", width: '675px', border: "1px solid rgba(115, 115, 115, 1)", borderRadius: '10px', p: 2, display: "flex", gap: "10px", justifyContent:"center",alignItems:'center' }}>
                         {/* <img key={index} src={img} width="100%"/> */}
 
                         <GradientCircularProgress

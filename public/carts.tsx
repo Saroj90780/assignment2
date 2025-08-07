@@ -24,6 +24,11 @@ const Carts = () => {
 }
 export default Carts
 
+interface Cartitems {
+  quantity: number;
+  cartwidth:string;
+}
+
 const Cartitems = ({ quantity, cartwidth }) => {
     return (<>
         <Typography sx={{ width: '88%', textAlign: 'start', fontFamily: "Poppins1", fontSize: '45px', color: "white" }}>PORTFOLIO</Typography>
