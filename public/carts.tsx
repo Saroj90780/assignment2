@@ -29,6 +29,7 @@ interface Cartitemsprop {
   cartwidth:string;
 }
 
+
 const Cartitems = ({ quantity, cartwidth }:Cartitemsprop) => {
     return (<>
         <Typography sx={{ width: '88%', textAlign: 'start', fontFamily: "Poppins1", fontSize: '45px', color: "white" }}>PORTFOLIO</Typography>
